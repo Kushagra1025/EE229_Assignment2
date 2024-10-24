@@ -25,7 +25,6 @@ plt.plot(t[:samples_to_plot], sine_wave[:samples_to_plot])
 plt.title(f'Sine Wave - Frequency: {frequency} Hz (First 50 ms)')
 plt.xlabel('Time [s]')
 plt.ylabel('Amplitude')
-plt.grid(True)
 plt.show()
 
 print("Sine wave audio file saved as 'sine_wave_200Hz.wav'")
